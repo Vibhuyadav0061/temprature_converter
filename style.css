@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(176, 176, 120);
+}
+.container{
+    height: 100vh;
+    
+}
+.container>div {
+    margin: 30px;
+}
+.box{
+    height: 40%;
+    width: 35%;
+    background-color: rgb(80, 80, 156);
+    box-shadow: 5px 5px 5px rgb(36, 33, 33);
+    border-radius: 20px;
+}
+.box form{
+    width: 80%;
+}
+
+label{
+    color:rgb(176, 176, 120) ;
+    font-size: bolder;
+    text-shadow: 2px 2px black;
+}
+
+#temp{
+    height: 50px;
+    width:90%;
+}
+
+.result{
+    height: 50px;
+    width:90%;
+    background-color: white;
+}
+
+#submit{
+    width: 100px;
+    height: 35px;
+    
+    background-color: rgb(176, 176, 120);
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px black;
+}
